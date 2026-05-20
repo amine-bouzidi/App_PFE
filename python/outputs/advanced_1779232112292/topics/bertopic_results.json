@@ -1,0 +1,560 @@
+{
+  "metadata": {
+    "total_documents": 5000,
+    "n_topics": 10,
+    "mode": "keyword_fallback",
+    "note": "BERTopic stack unavailable or corpus too small; keyword grouping used."
+  },
+  "topics": {
+    "0": {
+      "topic_name": "Mcdonald",
+      "n_documents": 2185,
+      "top_keywords": [
+        "mcdonald",
+        "its",
+        "company",
+        "following",
+        "after",
+        "shares",
+        "statement"
+      ],
+      "sources": {
+        "huffpost": 102,
+        "yahoo": 91,
+        "washingtonpost": 79,
+        "dailymail": 85,
+        "wsj": 78,
+        "theguardian": 88,
+        "bbc": 90,
+        "bloomberg": 90,
+        "theverge": 97,
+        "businessinsider": 77,
+        "buzzfeed": 72,
+        "reuters": 87,
+        "usatoday": 75,
+        "apnews": 83,
+        "lefigaro": 88,
+        "lemonde": 95,
+        "cnbc": 85,
+        "ft": 86,
+        "forbes": 82,
+        "techcrunch": 83,
+        "cnn": 86,
+        "bfmtv": 83,
+        "leparisien": 83,
+        "nbcnews": 83,
+        "foxnews": 65,
+        "nytimes": 72
+      },
+      "sample_documents": [
+        {
+          "id": "2",
+          "original_text": "McDonald's has announced a new limited-time menu item designed to attract younger customers, part of a broader strategy to modernize its offerings and appeal to changing consumer tastes. The product will be available for a limited period before a national rollout if successful. M"
+        },
+        {
+          "id": "6",
+          "original_text": "The Centers for Disease Control and Prevention has linked an E.coli outbreak to McDonald's Quarter Pounder burgers, with the contamination traced to slivered onions used as a topping. The company has removed the product from menus in several states while the investigation continu"
+        },
+        {
+          "id": "8",
+          "original_text": "McDonald's new $5 meal deal has proven popular with budget-conscious consumers, helping to drive traffic back to the chain after a period of declining visits. The promotion is seen as a direct response to growing competition from other fast food chains offering lower-priced optio"
+        }
+      ]
+    },
+    "1": {
+      "topic_name": "Its",
+      "n_documents": 489,
+      "top_keywords": [
+        "its",
+        "company",
+        "digital",
+        "mcdonald",
+        "top",
+        "more",
+        "than"
+      ],
+      "sources": {
+        "usatoday": 22,
+        "dailymail": 22,
+        "forbes": 27,
+        "bbc": 15,
+        "wsj": 18,
+        "lemonde": 12,
+        "bfmtv": 17,
+        "huffpost": 16,
+        "apnews": 22,
+        "reuters": 20,
+        "bloomberg": 20,
+        "ft": 18,
+        "techcrunch": 11,
+        "buzzfeed": 24,
+        "theguardian": 15,
+        "foxnews": 16,
+        "nbcnews": 27,
+        "washingtonpost": 13,
+        "theverge": 16,
+        "lefigaro": 19,
+        "yahoo": 22,
+        "businessinsider": 26,
+        "cnn": 21,
+        "nytimes": 18,
+        "cnbc": 13,
+        "leparisien": 19
+      },
+      "sample_documents": [
+        {
+          "id": "4",
+          "original_text": "McDonald's is accelerating its digital transformation, with the company reporting that digital sales now account for more than 40% of revenue in its top markets. The company's loyalty program has attracted tens of millions of members since its launch."
+        },
+        {
+          "id": "7",
+          "original_text": "McDonald's has suspended its relationship with the supplier believed to be linked to the E.coli outbreak that has sickened dozens of customers. The fast food giant said it was implementing enhanced food safety protocols across its supply chain and that customer safety was its top"
+        },
+        {
+          "id": "44",
+          "original_text": "McDonald's is accelerating its digital transformation, with the company reporting that digital sales now account for more than 40% of revenue in its top markets. The company's loyalty program has attracted tens of millions of members since its launch. McDonald's shares rose 7% fo"
+        }
+      ]
+    },
+    "2": {
+      "topic_name": "Company",
+      "n_documents": 396,
+      "top_keywords": [
+        "company",
+        "than",
+        "mcdonald",
+        "restaurants",
+        "its",
+        "menu",
+        "price"
+      ],
+      "sources": {
+        "theguardian": 20,
+        "wsj": 11,
+        "bfmtv": 12,
+        "foxnews": 11,
+        "theverge": 28,
+        "yahoo": 23,
+        "washingtonpost": 23,
+        "huffpost": 14,
+        "nbcnews": 14,
+        "nytimes": 11,
+        "lefigaro": 16,
+        "dailymail": 15,
+        "forbes": 11,
+        "buzzfeed": 21,
+        "lemonde": 9,
+        "cnbc": 24,
+        "businessinsider": 20,
+        "apnews": 19,
+        "techcrunch": 14,
+        "usatoday": 10,
+        "ft": 11,
+        "cnn": 11,
+        "leparisien": 14,
+        "reuters": 10,
+        "bbc": 7,
+        "bloomberg": 17
+      },
+      "sample_documents": [
+        {
+          "id": "0",
+          "original_text": "McDonald's is facing a growing number of lawsuits following an E.coli outbreak that has affected customers in multiple states. The company said it has temporarily removed slivered onions from its restaurants and is cooperating fully with health authorities investigating the sourc"
+        },
+        {
+          "id": "3",
+          "original_text": "McDonald's reported stronger-than-expected quarterly earnings, with revenue rising as the company continued to benefit from menu price increases and growing digital sales. The results sent shares higher, with the company raising its full-year outlook."
+        },
+        {
+          "id": "16",
+          "original_text": "McDonald's reported stronger-than-expected quarterly earnings, with revenue rising as the company continued to benefit from menu price increases and growing digital sales. The results sent shares higher, with the company raising its full-year outlook. The company operates more th"
+        }
+      ]
+    },
+    "3": {
+      "topic_name": "Emissions",
+      "n_documents": 339,
+      "top_keywords": [
+        "emissions",
+        "mcdonald",
+        "its",
+        "company",
+        "pledged",
+        "achieve",
+        "net"
+      ],
+      "sources": {
+        "huffpost": 10,
+        "theguardian": 13,
+        "reuters": 14,
+        "buzzfeed": 8,
+        "yahoo": 13,
+        "forbes": 12,
+        "ft": 12,
+        "theverge": 12,
+        "nbcnews": 13,
+        "bfmtv": 27,
+        "businessinsider": 10,
+        "wsj": 17,
+        "lefigaro": 14,
+        "cnn": 19,
+        "washingtonpost": 14,
+        "cnbc": 11,
+        "leparisien": 10,
+        "bbc": 15,
+        "nytimes": 11,
+        "techcrunch": 8,
+        "dailymail": 11,
+        "foxnews": 12,
+        "usatoday": 13,
+        "lemonde": 10,
+        "apnews": 18,
+        "bloomberg": 12
+      },
+      "sample_documents": [
+        {
+          "id": "14",
+          "original_text": "McDonald's has pledged to achieve net zero emissions across its global operations and supply chain by 2050, with an intermediate target to cut emissions by 50% by 2030. The commitment includes reducing methane emissions from beef production, which is the company's largest source "
+        },
+        {
+          "id": "15",
+          "original_text": "McDonald's has pledged to achieve net zero emissions across its global operations and supply chain by 2050, with an intermediate target to cut emissions by 50% by 2030. The commitment includes reducing methane emissions from beef production, which is the company's largest source "
+        },
+        {
+          "id": "17",
+          "original_text": "McDonald's has pledged to achieve net zero emissions across its global operations and supply chain by 2050, with an intermediate target to cut emissions by 50% by 2030. The commitment includes reducing methane emissions from beef production, which is the company's largest source "
+        }
+      ]
+    },
+    "4": {
+      "topic_name": "Limited",
+      "n_documents": 214,
+      "top_keywords": [
+        "limited",
+        "mcdonald",
+        "announced",
+        "new",
+        "time",
+        "menu",
+        "item"
+      ],
+      "sources": {
+        "ft": 7,
+        "cnbc": 12,
+        "dailymail": 9,
+        "theguardian": 13,
+        "usatoday": 9,
+        "buzzfeed": 6,
+        "forbes": 9,
+        "huffpost": 7,
+        "cnn": 9,
+        "apnews": 5,
+        "nbcnews": 7,
+        "businessinsider": 8,
+        "washingtonpost": 13,
+        "techcrunch": 11,
+        "leparisien": 9,
+        "bloomberg": 7,
+        "foxnews": 4,
+        "yahoo": 9,
+        "theverge": 5,
+        "reuters": 10,
+        "wsj": 9,
+        "bbc": 6,
+        "nytimes": 8,
+        "lefigaro": 10,
+        "bfmtv": 5,
+        "lemonde": 7
+      },
+      "sample_documents": [
+        {
+          "id": "11",
+          "original_text": "McDonald's has announced a new limited-time menu item designed to attract younger customers, part of a broader strategy to modernize its offerings and appeal to changing consumer tastes. The product will be available for a limited period before a national rollout if successful."
+        },
+        {
+          "id": "20",
+          "original_text": "McDonald's has announced a new limited-time menu item designed to attract younger customers, part of a broader strategy to modernize its offerings and appeal to changing consumer tastes. The product will be available for a limited period before a national rollout if successful. A"
+        },
+        {
+          "id": "32",
+          "original_text": "McDonald's has announced a new limited-time menu item designed to attract younger customers, part of a broader strategy to modernize its offerings and appeal to changing consumer tastes. The product will be available for a limited period before a national rollout if successful. T"
+        }
+      ]
+    },
+    "5": {
+      "topic_name": "Restaurants",
+      "n_documents": 203,
+      "top_keywords": [
+        "restaurants",
+        "company",
+        "countries",
+        "mcdonald",
+        "its",
+        "conflict",
+        "all"
+      ],
+      "sources": {
+        "nbcnews": 8,
+        "lefigaro": 16,
+        "bbc": 7,
+        "buzzfeed": 9,
+        "dailymail": 13,
+        "nytimes": 8,
+        "cnn": 6,
+        "foxnews": 11,
+        "huffpost": 7,
+        "yahoo": 6,
+        "lemonde": 7,
+        "wsj": 8,
+        "bloomberg": 7,
+        "leparisien": 9,
+        "theverge": 7,
+        "forbes": 10,
+        "businessinsider": 4,
+        "techcrunch": 5,
+        "apnews": 6,
+        "ft": 10,
+        "reuters": 9,
+        "cnbc": 7,
+        "washingtonpost": 5,
+        "bfmtv": 7,
+        "usatoday": 6,
+        "theguardian": 5
+      },
+      "sample_documents": [
+        {
+          "id": "19",
+          "original_text": "The Golden Arches have gone dark across Russia after McDonald's completed the sale of its Russian business to a local franchisee. The restaurants have reopened under a new name, Vkusno i tochka, meaning 'Tasty and that's it', in a surreal echo of the original chain's menu and déc"
+        },
+        {
+          "id": "22",
+          "original_text": "Sales at McDonald's restaurants have dropped sharply in several Middle Eastern countries, with the company acknowledging the impact of consumer boycotts linked to the conflict in Gaza. The company issued a statement saying it was not involved in political conflicts and that all o"
+        },
+        {
+          "id": "23",
+          "original_text": "Sales at McDonald's restaurants have dropped sharply in several Middle Eastern countries, with the company acknowledging the impact of consumer boycotts linked to the conflict in Gaza. The company issued a statement saying it was not involved in political conflicts and that all o"
+        }
+      ]
+    },
+    "6": {
+      "topic_name": "Fast",
+      "n_documents": 202,
+      "top_keywords": [
+        "fast",
+        "food",
+        "giant",
+        "been",
+        "grappling",
+        "higher",
+        "costs"
+      ],
+      "sources": {
+        "businessinsider": 7,
+        "washingtonpost": 10,
+        "nytimes": 9,
+        "lefigaro": 7,
+        "ft": 7,
+        "cnn": 8,
+        "cnbc": 7,
+        "reuters": 13,
+        "theverge": 13,
+        "lemonde": 6,
+        "bfmtv": 8,
+        "apnews": 11,
+        "leparisien": 8,
+        "forbes": 7,
+        "theguardian": 10,
+        "bbc": 8,
+        "huffpost": 4,
+        "buzzfeed": 10,
+        "yahoo": 11,
+        "dailymail": 7,
+        "nbcnews": 3,
+        "wsj": 7,
+        "techcrunch": 6,
+        "usatoday": 6,
+        "bloomberg": 6,
+        "foxnews": 3
+      },
+      "sample_documents": [
+        {
+          "id": "1",
+          "original_text": "The fast food giant has been grappling with higher costs for labor and ingredients, passing some of those increases onto consumers through menu price rises. The company said it remains focused on providing value to customers while maintaining profitability. McDonald's shares fell"
+        },
+        {
+          "id": "24",
+          "original_text": "The fast food giant has been grappling with higher costs for labor and ingredients, passing some of those increases onto consumers through menu price rises. The company said it remains focused on providing value to customers while maintaining profitability. McDonald's shares fell"
+        },
+        {
+          "id": "74",
+          "original_text": "The fast food giant has been grappling with higher costs for labor and ingredients, passing some of those increases onto consumers through menu price rises. The company said it remains focused on providing value to customers while maintaining profitability. McDonald's shares fell"
+        }
+      ]
+    },
+    "7": {
+      "topic_name": "Western",
+      "n_documents": 147,
+      "top_keywords": [
+        "western",
+        "brands",
+        "analysts",
+        "lasting",
+        "implications",
+        "countries",
+        "boycott"
+      ],
+      "sources": {
+        "cnbc": 4,
+        "nbcnews": 2,
+        "leparisien": 6,
+        "wsj": 9,
+        "forbes": 6,
+        "techcrunch": 4,
+        "dailymail": 12,
+        "ft": 7,
+        "bfmtv": 8,
+        "cnn": 7,
+        "bloomberg": 5,
+        "foxnews": 8,
+        "theguardian": 7,
+        "businessinsider": 4,
+        "huffpost": 4,
+        "bbc": 4,
+        "nytimes": 4,
+        "lemonde": 5,
+        "theverge": 9,
+        "apnews": 4,
+        "buzzfeed": 6,
+        "reuters": 6,
+        "washingtonpost": 4,
+        "usatoday": 7,
+        "yahoo": 3,
+        "lefigaro": 2
+      },
+      "sample_documents": [
+        {
+          "id": "60",
+          "original_text": "The boycott of McDonald's, Starbucks, and other Western brands has accelerated in Muslim-majority countries following the outbreak of the conflict in Gaza. Analysts say the movement represents one of the most significant consumer boycotts of Western brands since the Iraq War, wit"
+        },
+        {
+          "id": "116",
+          "original_text": "The boycott of McDonald's, Starbucks, and other Western brands has accelerated in Muslim-majority countries following the outbreak of the conflict in Gaza. Analysts say the movement represents one of the most significant consumer boycotts of Western brands since the Iraq War, wit"
+        },
+        {
+          "id": "162",
+          "original_text": "The boycott of McDonald's, Starbucks, and other Western brands has accelerated in Muslim-majority countries following the outbreak of the conflict in Gaza. Analysts say the movement represents one of the most significant consumer boycotts of Western brands since the Iraq War, wit"
+        }
+      ]
+    },
+    "8": {
+      "topic_name": "Boycott",
+      "n_documents": 147,
+      "top_keywords": [
+        "boycott",
+        "israeli",
+        "countries",
+        "mcdonald",
+        "facing",
+        "significant",
+        "consumer"
+      ],
+      "sources": {
+        "techcrunch": 9,
+        "buzzfeed": 8,
+        "cnbc": 3,
+        "theverge": 7,
+        "ft": 7,
+        "businessinsider": 4,
+        "usatoday": 8,
+        "bbc": 11,
+        "theguardian": 5,
+        "yahoo": 8,
+        "dailymail": 7,
+        "forbes": 3,
+        "leparisien": 3,
+        "cnn": 7,
+        "foxnews": 5,
+        "wsj": 4,
+        "nbcnews": 1,
+        "reuters": 5,
+        "nytimes": 6,
+        "huffpost": 6,
+        "bloomberg": 7,
+        "washingtonpost": 5,
+        "bfmtv": 9,
+        "apnews": 3,
+        "lemonde": 4,
+        "lefigaro": 2
+      },
+      "sample_documents": [
+        {
+          "id": "73",
+          "original_text": "McDonald's is facing a significant consumer boycott across the Middle East and in Muslim-majority countries worldwide, after its Israeli franchise operator publicized a campaign offering free meals to Israeli soldiers. The backlash spread rapidly on social media, with calls to bo"
+        },
+        {
+          "id": "79",
+          "original_text": "McDonald's is facing a significant consumer boycott across the Middle East and in Muslim-majority countries worldwide, after its Israeli franchise operator publicized a campaign offering free meals to Israeli soldiers. The backlash spread rapidly on social media, with calls to bo"
+        },
+        {
+          "id": "104",
+          "original_text": "McDonald's is facing a significant consumer boycott across the Middle East and in Muslim-majority countries worldwide, after its Israeli franchise operator publicized a campaign offering free meals to Israeli soldiers. The backlash spread rapidly on social media, with calls to bo"
+        }
+      ]
+    },
+    "9": {
+      "topic_name": "Minimum",
+      "n_documents": 129,
+      "top_keywords": [
+        "minimum",
+        "company",
+        "mcdonald",
+        "strike",
+        "comes",
+        "amid",
+        "growing"
+      ],
+      "sources": {
+        "bloomberg": 5,
+        "lemonde": 6,
+        "huffpost": 5,
+        "leparisien": 4,
+        "dailymail": 3,
+        "techcrunch": 4,
+        "theverge": 5,
+        "yahoo": 7,
+        "usatoday": 4,
+        "theguardian": 7,
+        "lefigaro": 5,
+        "foxnews": 6,
+        "cnbc": 4,
+        "reuters": 5,
+        "ft": 3,
+        "nbcnews": 7,
+        "forbes": 8,
+        "washingtonpost": 4,
+        "nytimes": 5,
+        "businessinsider": 4,
+        "wsj": 7,
+        "bbc": 4,
+        "cnn": 4,
+        "buzzfeed": 5,
+        "bfmtv": 3,
+        "apnews": 5
+      },
+      "sample_documents": [
+        {
+          "id": "36",
+          "original_text": "The McDonald's strike comes amid growing momentum for labor reform in the fast food industry, with several states having already raised their minimum wages. Organizers say they will continue to pressure the company until it commits to a $15 minimum wage nationwide. Analysts said "
+        },
+        {
+          "id": "62",
+          "original_text": "The McDonald's strike comes amid growing momentum for labor reform in the fast food industry, with several states having already raised their minimum wages. Organizers say they will continue to pressure the company until it commits to a $15 minimum wage nationwide. The company op"
+        },
+        {
+          "id": "98",
+          "original_text": "The McDonald's strike comes amid growing momentum for labor reform in the fast food industry, with several states having already raised their minimum wages. Organizers say they will continue to pressure the company until it commits to a $15 minimum wage nationwide. The company op"
+        }
+      ]
+    }
+  }
+}

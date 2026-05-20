@@ -1,5 +1,5 @@
 import { NextRequest } from "next/server";
-import { runScraper, runAnalysis } from "@/services/pythonRunner";
+import { runScraper, runAnalysis, runAdvancedAnalysis } from "@/services/pythonRunner";
 import { prisma } from "@/lib/db";
 import fs from "fs";
 
@@ -104,6 +104,22 @@ export async function POST(request: NextRequest) {
                 sendUpdate({ status: "analyzing_logs", log: aiLog });
               });
 
+              sendUpdate({ status: "advanced_analyzing", message: "Running advanced Python analysis modules..." });
+
+              let advancedAnalysisOutput: any = null;
+              try {
+                advancedAnalysisOutput = await runAdvancedAnalysis(datasetPath, (advancedLog) => {
+                  accumulatedLogs += advancedLog;
+                  sendUpdate({ status: "advanced_logs", log: advancedLog });
+                });
+              } catch (advancedErr: any) {
+                accumulatedLogs += `\nAdvanced analysis failed: ${advancedErr.message}`;
+                sendUpdate({
+                  status: "advanced_warning",
+                  message: `Advanced analysis partially failed: ${advancedErr.message}`,
+                });
+              }
+
               sendUpdate({ status: "saving", message: "Saving analysis reports..." });
 
               // 4. Enregistrement des statistiques d'analyse IA en base de données
@@ -150,7 +166,14 @@ export async function POST(request: NextRequest) {
               // Finalisation du Dataset en base de données avec l'état 'COMPLETED'
               await prisma.dataset.update({
                 where: { id: dataset.id },
-                data: { status: "COMPLETED", logs: accumulatedLogs },
+                data: {
+                  status: "COMPLETED",
+                  logs: accumulatedLogs + (
+                    advancedAnalysisOutput
+                      ? `\nAdvanced analysis outputs: ${advancedAnalysisOutput.output_dir}`
+                      : ""
+                  ),
+                },
               });
 
               // Envoi de la charge utile de réussite globale avec tous les IDs générés
@@ -160,6 +183,7 @@ export async function POST(request: NextRequest) {
                 datasetId: dataset.id,
                 analysisId: analysis.id,
                 reportId: report.id,
+                advancedOutputDir: advancedAnalysisOutput?.output_dir || null,
               });
 
             } catch (err: any) {

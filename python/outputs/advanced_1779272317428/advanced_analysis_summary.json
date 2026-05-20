@@ -1,0 +1,397 @@
+{
+  "generated_at": "2026-05-20T11:18:37.581443",
+  "dataset": "C:\\Users\\GAB Informatique\\Documents\\GitHub\\amine\\python\\datasets\\dataset_20260520_111818.json",
+  "output_dir": "C:\\Users\\GAB Informatique\\Documents\\GitHub\\amine\\python\\outputs\\advanced_1779272317428",
+  "document_count": 20,
+  "source_distribution": {
+    "twitter": 10,
+    "press": 10
+  },
+  "modules": {
+    "linguistic": {
+      "status": "completed",
+      "data": {
+        "all": {
+          "2026-05": {
+            "n_docs": 20,
+            "n_tokens": 236.2,
+            "n_types": 116.5,
+            "ttr": 0.7821,
+            "mattr": 0.914,
+            "mtld": 58.542,
+            "hapax_ratio": 0.8612,
+            "yule_k": 52.5145,
+            "n_sentences": 10.25,
+            "avg_sent_length": 17.8495,
+            "sent_length_std": 6.2935,
+            "clause_density": 1.1845,
+            "flesch_reading_ease": 18.392,
+            "ari": 14.3605,
+            "coleman_liau": 14.7435,
+            "lix": 56.5145,
+            "avg_chars_per_word": 5.721,
+            "information_density": 0.5955,
+            "lexical_density": 0.6939,
+            "intra_doc_coherence": 0.9555,
+            "topic_concentration": 0.6189
+          }
+        },
+        "press": {
+          "2026-05": {
+            "n_docs": 10,
+            "n_tokens": 459.7,
+            "n_types": 220.3,
+            "ttr": 0.5642,
+            "mattr": 0.828,
+            "mtld": 103.784,
+            "hapax_ratio": 0.7225,
+            "yule_k": 105.029,
+            "n_sentences": 19.5,
+            "avg_sent_length": 22.999,
+            "sent_length_std": 12.587,
+            "clause_density": 1.369,
+            "flesch_reading_ease": 13.737,
+            "ari": 15.675,
+            "coleman_liau": 14.156,
+            "lix": 58.487,
+            "avg_chars_per_word": 5.472,
+            "information_density": 0.5919,
+            "lexical_density": 0.7886,
+            "intra_doc_coherence": 0.9555,
+            "topic_concentration": 0.2377
+          }
+        },
+        "twitter": {
+          "2026-05": {
+            "n_docs": 10,
+            "n_tokens": 12.7,
+            "n_types": 12.7,
+            "ttr": 1.0,
+            "mattr": 1.0,
+            "mtld": 13.3,
+            "hapax_ratio": 1.0,
+            "yule_k": 0.0,
+            "n_sentences": 1,
+            "avg_sent_length": 12.7,
+            "sent_length_std": 0.0,
+            "clause_density": 1.0,
+            "flesch_reading_ease": 23.047,
+            "ari": 13.046,
+            "coleman_liau": 15.331,
+            "lix": 54.542,
+            "avg_chars_per_word": 5.97,
+            "information_density": 0.5991,
+            "lexical_density": 0.5991,
+            "intra_doc_coherence": null,
+            "topic_concentration": 1.0
+          }
+        }
+      }
+    },
+    "emotional": {
+      "status": "completed",
+      "data": {
+        "all": {
+          "2026-05": {
+            "n_docs": 20,
+            "ratio_caps": 0.0089,
+            "ratio_strong_punct": 0.0159,
+            "ratio_intensity_words": 0.0005,
+            "vader_neg": 0.0,
+            "vader_neu": 1.0,
+            "vader_pos": 0.0,
+            "vader_compound": 0.0,
+            "tb_polarity": 0.0927,
+            "tb_subjectivity": 0.3758
+          }
+        },
+        "press": {
+          "2026-05": {
+            "n_docs": 10,
+            "ratio_caps": 0.0179,
+            "ratio_strong_punct": 0.0318,
+            "ratio_intensity_words": 0.0011,
+            "vader_neg": null,
+            "vader_neu": null,
+            "vader_pos": null,
+            "vader_compound": null,
+            "tb_polarity": 0.0927,
+            "tb_subjectivity": 0.3758
+          }
+        },
+        "twitter": {
+          "2026-05": {
+            "n_docs": 10,
+            "ratio_caps": 0.0,
+            "ratio_strong_punct": 0.0,
+            "ratio_intensity_words": 0.0,
+            "vader_neg": 0.0,
+            "vader_neu": 1.0,
+            "vader_pos": 0.0,
+            "vader_compound": 0.0,
+            "tb_polarity": null,
+            "tb_subjectivity": null
+          }
+        }
+      }
+    },
+    "topics": {
+      "status": "completed",
+      "data": {
+        "metadata": {
+          "total_documents": 20,
+          "n_topics": 10,
+          "mode": "keyword_fallback",
+          "note": "BERTopic stack unavailable or corpus too small; keyword grouping used."
+        },
+        "topics": {
+          "0": {
+            "topic_name": "Uber",
+            "n_documents": 7,
+            "top_keywords": [
+              "uber",
+              "nissan",
+              "service",
+              "elgrand",
+              "par",
+              "premium",
+              "touristes"
+            ],
+            "sources": {
+              "twitter": 5,
+              "press": 2
+            },
+            "sample_documents": [
+              {
+                "id": "1",
+                "original_text": "Uber gagne beaucoup d'attention dans service, surtout autour de l'experience utilisateur."
+              },
+              {
+                "id": "2",
+                "original_text": "Uber pourrait changer les pratiques dans service, mais il faut encore des preuves terrain."
+              },
+              {
+                "id": "6",
+                "original_text": "Uber gagne beaucoup d'attention dans service, surtout autour de l'experience utilisateur."
+              }
+            ]
+          },
+          "1": {
+            "topic_name": "Surveille",
+            "n_documents": 3,
+            "top_keywords": [
+              "surveille",
+              "uber",
+              "service",
+              "retours",
+              "partages",
+              "sujet",
+              "monte"
+            ],
+            "sources": {
+              "twitter": 3
+            },
+            "sample_documents": [
+              {
+                "id": "0",
+                "original_text": "Je surveille Uber pour service; les retours sont partages mais le sujet monte vite."
+              },
+              {
+                "id": "5",
+                "original_text": "Je surveille Uber pour service; les retours sont partages mais le sujet monte vite."
+              },
+              {
+                "id": "8",
+                "original_text": "Je surveille Uber pour service; les retours sont partages mais le sujet monte vite."
+              }
+            ]
+          },
+          "2": {
+            "topic_name": "Discussions",
+            "n_documents": 2,
+            "top_keywords": [
+              "discussions",
+              "uber",
+              "montrent",
+              "attentes",
+              "fortes",
+              "cote",
+              "performance"
+            ],
+            "sources": {
+              "twitter": 2
+            },
+            "sample_documents": [
+              {
+                "id": "3",
+                "original_text": "Les discussions sur Uber montrent des attentes fortes cote performance et fiabilite."
+              },
+              {
+                "id": "4",
+                "original_text": "Les discussions sur Uber montrent des attentes fortes cote performance et fiabilite."
+              }
+            ]
+          },
+          "3": {
+            "topic_name": "Que",
+            "n_documents": 2,
+            "top_keywords": [
+              "que",
+              "uber",
+              "par",
+              "qui",
+              "livreurs",
+              "deliveroo",
+              "pas"
+            ],
+            "sources": {
+              "press": 2
+            },
+            "sample_documents": [
+              {
+                "id": "13",
+                "original_text": "Uber Eats et Deliveroo mis en demeure : le syndicat et les plateformes répondent\nLes plateformes de livraison de repas Uber Eats et Deliveroo, déjà visées par une plainte pour \"traite des êtres humains\", font l'objet depuis le 11 mai 2026 d'une mise en demeure pour suspensions ab"
+              },
+              {
+                "id": "15",
+                "original_text": "HALIFAX — Des documents récemment publiés révèlent que le maire d’Halifax, Andy Fillmore, a rencontré un lobbyiste d’Uber la veille du jour où il a convaincu le conseil municipal de reporter le vote sur une proposition visant à renforcer la surveillance des chauffeurs de voiturag"
+              }
+            ]
+          },
+          "4": {
+            "topic_name": "Action",
+            "n_documents": 1,
+            "top_keywords": [
+              "action",
+              "uber",
+              "eats",
+              "deliveroo",
+              "contre",
+              "repas",
+              "cfdt"
+            ],
+            "sources": {
+              "press": 1
+            },
+            "sample_documents": [
+              {
+                "id": "11",
+                "original_text": "Liveurs : une action contre Uber Eats et Deliveroo\nLes plateformes de livraison de repas accusées d'opacité. La CFDT met en demeure Uber Eats et Deliveroo de justifier la désactivation de milliers de comptes de livreurs et de faire la transparence sur leurs revenus. Cette offensi"
+              }
+            ]
+          },
+          "5": {
+            "topic_name": "Delivery",
+            "n_documents": 1,
+            "top_keywords": [
+              "delivery",
+              "hero",
+              "uber",
+              "participation",
+              "société",
+              "que",
+              "par"
+            ],
+            "sources": {
+              "press": 1
+            },
+            "sample_documents": [
+              {
+                "id": "12",
+                "original_text": "((Traduction automatisée par Reuters à l'aide de l'apprentissage automatique et de l'IA générative, veuillez vous référer à l'avertissement suivant: https://bit.ly/rtrsauto))\n* Uber n'a pas l'intention d'augmenter sa participation au-delà de 30 %\n* L'assemblée générale annuelle d"
+              }
+            ]
+          },
+          "6": {
+            "topic_name": "Travail",
+            "n_documents": 1,
+            "top_keywords": [
+              "travail",
+              "uber",
+              "eats",
+              "par",
+              "trois",
+              "avis",
+              "commission"
+            ],
+            "sources": {
+              "press": 1
+            },
+            "sample_documents": [
+              {
+                "id": "16",
+                "original_text": "Uber Eats conteste devant le tribunal du travail l’avis remis en mai 2024 par la Commission relations de travail (CRT). Cette dernière avait appelé à requalifier les trois livreurs comme salariés. Une série de critères attestent, selon la CRT, de la position d’autorité exercée pa"
+              }
+            ]
+          },
+          "7": {
+            "topic_name": "Qui",
+            "n_documents": 1,
+            "top_keywords": [
+              "qui",
+              "uber",
+              "eats",
+              "que",
+              "deliveroo",
+              "indépendants",
+              "compte"
+            ],
+            "sources": {
+              "press": 1
+            },
+            "sample_documents": [
+              {
+                "id": "17",
+                "original_text": "Secret des affaires ou opacité coupable ? Uber Eats et Deliveroo, ces plateformes qui emploient des travailleurs indépendants, ont été sommées ces derniers jours par des associations et des syndicats de faire la transparence sur leurs algorithmes, qui dictent notamment le montant"
+              }
+            ]
+          },
+          "8": {
+            "topic_name": "Reuters",
+            "n_documents": 1,
+            "top_keywords": [
+              "reuters",
+              "partager",
+              "article",
+              "vous",
+              "delivery",
+              "hero",
+              "uber"
+            ],
+            "sources": {
+              "press": 1
+            },
+            "sample_documents": [
+              {
+                "id": "18",
+                "original_text": "Delivery Hero SE : Uber Technologies détient 17,92% des droits de vote et instruments au 12 mai (contre 7,24% précédemment) Publié le 18/05/2026 à 17:12 Reuters - Traduit par Zonebourse Avertissement légalContactez-nous pour toute demande de correction - Voir l'original Partager "
+              }
+            ]
+          },
+          "9": {
+            "topic_name": "Site",
+            "n_documents": 1,
+            "top_keywords": [
+              "site",
+              "uniquement",
+              "application",
+              "web",
+              "nous",
+              "mediapart",
+              "nos"
+            ],
+            "sources": {
+              "press": 1
+            },
+            "sample_documents": [
+              {
+                "id": "19",
+                "original_text": "Les cookies et technologies similaires que nous utilisons sur Mediapart sont de différentes natures et nous permettent de poursuivre différentes finalités. Certains sont nécessaires au fonctionnement du site et de l’application mobile (vous ne pouvez pas les refuser). D’autres so"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

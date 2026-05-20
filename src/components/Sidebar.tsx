@@ -12,7 +12,8 @@ import {
   Settings, 
   LogOut,
   TrendingUp,
-  User
+  User,
+  BrainCircuit
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 
@@ -21,6 +22,7 @@ const links = [
   { href: "/scraper", label: "Module de Scraping", icon: Search },
   { href: "/projects", label: "Projets", icon: FolderKanban },
   { href: "/analyses", label: "Analyses IA", icon: LineChart },
+  { href: "/advanced-analysis", label: "Analyse avancee", icon: BrainCircuit },
   { href: "/reports", label: "Rapports", icon: FileText },
   { href: "/settings", label: "Paramètres", icon: Settings },
 ];

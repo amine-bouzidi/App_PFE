@@ -4,3 +4,68 @@ pandas>=2.0.0
 numpy>=1.20.0
 textblob>=0.17.0
 python-dotenv>=1.0.0
+# Dépendances de base
+jupyter>=1.0.0
+notebook>=6.5.0
+pandas>=2.0.0
+numpy>=1.24.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.14.0
+
+# Prétraitement
+nltk>=3.8.0
+spacy>=3.5.0
+langdetect>=1.0.9
+textblob>=0.17.0
+
+# Analyse sémantique
+sentence-transformers>=2.2.0
+scikit-learn>=1.3.0
+
+# Topic Modeling
+bertopic>=0.15.0
+gensim>=4.3.0
+lda>=2.0.0
+pyLDAvis>=3.4.0
+
+# Visualisation
+wordcloud>=1.9.0
+bokeh>=3.3.0
+
+# Indicateurs linguistiques
+textstat>=0.7.0
+lexicalrichness>=0.5.1
+vaderSentiment>=3.3.2
+
+# Modèles génératifs
+transformers>=4.30.0
+torch>=2.0.0
+
+# Utilitaires
+tqdm>=4.65.0
+python-dotenv>=1.0.0
+requests>=2.31.0
+trafilatura>=1.8.0
+undetected-chromedriver>=3.5.0
+python-dateutil>=2.8.2
+
+
+
+
+# --- AJOUTS NÉCESSAIRES ---
+
+# Pour le support multilingue et les modèles Transformers
+sentencepiece>=0.1.99
+sacremoses>=0.0.53
+
+# Pour la gestion efficace des vecteurs (indispensable pour Topic Modeling)
+umap-learn>=0.5.3
+hdbscan>=0.8.33
+
+# Pour l'extraction de texte (si tu as des PDF ou Docx dans data/raw)
+PyPDF2>=3.0.0
+python-docx>=0.8.11
+
+# Pour l'interface (si tu prévois une petite démo locale)
+streamlit>=1.28.0

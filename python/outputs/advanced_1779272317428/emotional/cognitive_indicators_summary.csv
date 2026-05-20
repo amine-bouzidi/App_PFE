@@ -1,0 +1,4 @@
+periode,source,n_docs,n_tokens,ttr,mattr,mtld,hapax_ratio,yule_k,avg_sent_length,clause_density,flesch_reading_ease,lix,information_density,lexical_density,topic_concentration,ratio_caps,ratio_strong_punct,ratio_intensity_words,vader_compound,vader_neg,vader_pos,tb_polarity,tb_subjectivity,n_anomaly_signals,max_zscore,severity
+2026-05,all,20,236.2,0.7821,0.914,58.542,0.8612,52.5145,17.8495,1.1845,18.392,56.5145,0.5955,0.6939,0.6189,0.0089,0.0159,0.0005,0.0,0.0,0.0,0.0927,0.3758,0,,
+2026-05,press,10,459.7,0.5642,0.828,103.784,0.7225,105.029,22.999,1.369,13.737,58.487,0.5919,0.7886,0.2377,0.0179,0.0318,0.0011,,,,0.0927,0.3758,0,,
+2026-05,twitter,10,12.7,1.0,1.0,13.3,1.0,0.0,12.7,1.0,23.047,54.542,0.5991,0.5991,1.0,0.0,0.0,0.0,0.0,0.0,0.0,,,0,,

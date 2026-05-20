@@ -1,0 +1,308 @@
+{
+  "metadata": {
+    "total_documents": 99978,
+    "n_topics": 10,
+    "mode": "keyword_fallback",
+    "note": "BERTopic stack unavailable or corpus too small; keyword grouping used."
+  },
+  "topics": {
+    "0": {
+      "topic_name": "Mcdonald",
+      "n_documents": 52696,
+      "top_keywords": [
+        "mcdonald",
+        "again",
+        "getting",
+        "genuinely",
+        "but",
+        "honestly",
+        "see"
+      ],
+      "sources": {
+        "twitter": 52696
+      },
+      "sample_documents": [
+        {
+          "id": "1",
+          "original_text": "McDonald's prices going up again I see... everything is getting expensive"
+        },
+        {
+          "id": "2",
+          "original_text": "McDonald's got me again... I said I wouldn't but here we are 🍔"
+        },
+        {
+          "id": "5",
+          "original_text": "McDonald's drive-thru line was insane today, waited 15 minutes"
+        }
+      ]
+    },
+    "1": {
+      "topic_name": "Every",
+      "n_documents": 5729,
+      "top_keywords": [
+        "every",
+        "mcdonald",
+        "time",
+        "say",
+        "done",
+        "end",
+        "back"
+      ],
+      "sources": {
+        "twitter": 5729
+      },
+      "sample_documents": [
+        {
+          "id": "25",
+          "original_text": "Every time I say I'm done with McDonald's I end up back there lol"
+        },
+        {
+          "id": "51",
+          "original_text": "Every time I say I'm done with McDonald's I end up back there lol"
+        },
+        {
+          "id": "52",
+          "original_text": "Every time I say I'm done with McDonald's I end up back there lol"
+        }
+      ]
+    },
+    "2": {
+      "topic_name": "Just",
+      "n_documents": 5560,
+      "top_keywords": [
+        "just",
+        "had",
+        "mcdonald",
+        "time",
+        "week",
+        "regrets"
+      ],
+      "sources": {
+        "twitter": 5560
+      },
+      "sample_documents": [
+        {
+          "id": "0",
+          "original_text": "Just had McDonald's for the 2nd time this week, no regrets 🍟"
+        },
+        {
+          "id": "15",
+          "original_text": "Just had McDonald's for the 3rd time this week, no regrets 🍟"
+        },
+        {
+          "id": "29",
+          "original_text": "Just had McDonald's for the 2nd time this week, no regrets 🍟"
+        }
+      ]
+    },
+    "3": {
+      "topic_name": "Nothing",
+      "n_documents": 5514,
+      "top_keywords": [
+        "nothing",
+        "like",
+        "mcflurry",
+        "fix",
+        "bad",
+        "day",
+        "ngl"
+      ],
+      "sources": {
+        "twitter": 5514
+      },
+      "sample_documents": [
+        {
+          "id": "19",
+          "original_text": "Nothing like a McFlurry to fix a bad day ngl"
+        },
+        {
+          "id": "30",
+          "original_text": "Nothing like a McFlurry to fix a bad day ngl"
+        },
+        {
+          "id": "31",
+          "original_text": "Nothing like a McFlurry to fix a bad day ngl"
+        }
+      ]
+    },
+    "4": {
+      "topic_name": "Could",
+      "n_documents": 5507,
+      "top_keywords": [
+        "could",
+        "eat",
+        "mcdonald",
+        "every",
+        "day",
+        "feel",
+        "zero"
+      ],
+      "sources": {
+        "twitter": 5507
+      },
+      "sample_documents": [
+        {
+          "id": "4",
+          "original_text": "I could eat McDonald's every day and feel zero shame about it"
+        },
+        {
+          "id": "48",
+          "original_text": "I could eat McDonald's every day and feel zero shame about it"
+        },
+        {
+          "id": "86",
+          "original_text": "I could eat McDonald's every day and feel zero shame about it"
+        }
+      ]
+    },
+    "5": {
+      "topic_name": "Why",
+      "n_documents": 5423,
+      "top_keywords": [
+        "why",
+        "mcdonald",
+        "always",
+        "packed",
+        "like",
+        "every",
+        "single"
+      ],
+      "sources": {
+        "twitter": 5423
+      },
+      "sample_documents": [
+        {
+          "id": "9",
+          "original_text": "Why is McDonald's always packed at 2am? Like every single time"
+        },
+        {
+          "id": "13",
+          "original_text": "Why is McDonald's always packed at 1am? Like every single time"
+        },
+        {
+          "id": "53",
+          "original_text": "Why is McDonald's always packed at midnight? Like every single time"
+        }
+      ]
+    },
+    "6": {
+      "topic_name": "Shoutout",
+      "n_documents": 5374,
+      "top_keywords": [
+        "shoutout",
+        "mcdonald",
+        "workers",
+        "keeping",
+        "together",
+        "during",
+        "rush"
+      ],
+      "sources": {
+        "twitter": 5374
+      },
+      "sample_documents": [
+        {
+          "id": "32",
+          "original_text": "Shoutout to the McDonald's workers keeping it together during rush hour"
+        },
+        {
+          "id": "36",
+          "original_text": "Shoutout to the McDonald's workers keeping it together during rush hour"
+        },
+        {
+          "id": "42",
+          "original_text": "Shoutout to the McDonald's workers keeping it together during rush hour"
+        }
+      ]
+    },
+    "7": {
+      "topic_name": "New",
+      "n_documents": 4474,
+      "top_keywords": [
+        "new",
+        "mcdonald",
+        "menu",
+        "item",
+        "actually",
+        "fire",
+        "lowkey"
+      ],
+      "sources": {
+        "twitter": 4474
+      },
+      "sample_documents": [
+        {
+          "id": "40",
+          "original_text": "The new McDonald's menu item is actually mid"
+        },
+        {
+          "id": "118",
+          "original_text": "The new McDonald's menu item is actually fire"
+        },
+        {
+          "id": "139",
+          "original_text": "The new McDonald's menu item is actually fire"
+        }
+      ]
+    },
+    "8": {
+      "topic_name": "Actually",
+      "n_documents": 1025,
+      "top_keywords": [
+        "actually",
+        "new",
+        "mcdonald",
+        "menu",
+        "item",
+        "good"
+      ],
+      "sources": {
+        "twitter": 1025
+      },
+      "sample_documents": [
+        {
+          "id": "3",
+          "original_text": "The new McDonald's menu item is actually actually good"
+        },
+        {
+          "id": "168",
+          "original_text": "The new McDonald's menu item is actually actually good"
+        },
+        {
+          "id": "277",
+          "original_text": "The new McDonald's menu item is actually actually good"
+        }
+      ]
+    },
+    "9": {
+      "topic_name": "Haven",
+      "n_documents": 761,
+      "top_keywords": [
+        "haven",
+        "been",
+        "mcdonald",
+        "weeks",
+        "don",
+        "miss",
+        "boycottmcdonalds"
+      ],
+      "sources": {
+        "twitter": 761
+      },
+      "sample_documents": [
+        {
+          "id": "267",
+          "original_text": "Haven't been to McDonald's in weeks and I don't miss it. #BoycottMcDonalds"
+        },
+        {
+          "id": "325",
+          "original_text": "Haven't been to McDonald's in weeks and I don't miss it. #BoycottMcDonalds"
+        },
+        {
+          "id": "352",
+          "original_text": "Haven't been to McDonald's in weeks and I don't miss it. #BoycottMcDonalds"
+        }
+      ]
+    }
+  }
+}
